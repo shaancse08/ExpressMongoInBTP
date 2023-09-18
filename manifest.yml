@@ -1,0 +1,8 @@
+
+applications:
+- name: express-btp-mongo
+  random-route: true
+  path: .
+  memory: 1024M
+  buildpacks:
+  - nodejs_buildpack
